@@ -1,14 +1,3 @@
-##Pre-requisite##
-pip3 install pandas-datareader, pync, yfinance
-
-pip3 install pandas, alpha_vantage
-
-##To use ssl to send email, please run below command in terminal##
-open /Applications/Python\ 3.9/Install\ Certificates.command
-
-##How to run##
-python3 alphav_email_notify.py 
-
 # Stock Price Alert
 
 This project was created with Python version 3.9 using yahoo finance API and alpha vantage API.
