@@ -8,28 +8,39 @@ This project was created with Python version 3.9 using yahoo finance API and alp
 
 1. Install the below package by following commands
 
-pip3 install pandas, pync
+```
+  pip3 install pandas, pync
+```
 
 2. Install the below package to run yfin_price_notify by following commands
 
-pip3 install pandas-datareader, yfinance
+```
+  pip3 install pandas-datareader, yfinance
+```
 
 3. Install the below package to run alphav_price_notify by following commands
 
-pip3 install alpha_vantage
+```
+  pip3 install alpha_vantage
+```
 
 4. Update the config_incomplete.py and rename it to config.py
 
 5. To send email with SMTP over SSL, you may need to install SSL Certificate by following commands
-open /Applications/Python\ 3.9/Install\ Certificates.command
-
+```
+  open /Applications/Python\ 3.9/Install\ Certificates.command
+```
 ## How to run the program
 
 1. To trigger alpha vantage version, run the below
-python3 alphav_price_notify.py 
+
+```
+  python3 alphav_price_notify.py 
+```
 
 2. To trigger yahoo finance version, run the below
-python3 yfin_price_notify.py 
-
+```
+  python3 yfin_price_notify.py 
+```
 ## Further help
 
